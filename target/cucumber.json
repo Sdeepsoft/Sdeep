@@ -1,0 +1,189 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-21T00:07:40.434Z",
+        "line": 3,
+        "name": "Navigate to Create Account screen of HN website",
+        "description": "",
+        "id": "website-navigation;navigate-to-create-account-screen-of-hn-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4876734100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser and enter url and press enter key",
+            "match": {
+              "location": "StepDefinitions.SD01_RegistertoHNwebsite.open_the_browser_and_enter_url_and_press_enter_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59309500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "System should navigate to Create Account screen of HN website",
+            "match": {
+              "location": "StepDefinitions.SD01_RegistertoHNwebsite.system_should_navigate_to_create_account_screen_of_hn_website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Website Navigation",
+    "description": "",
+    "id": "website-navigation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/FF01_RegistertoHNwebsite.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-21T00:07:45.541Z",
+        "line": 3,
+        "name": "create an account",
+        "description": "",
+        "id": "create-an-account;create-an-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4219239900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser and enter url and press enter key",
+            "match": {
+              "location": "StepDefinitions.SD01_RegistertoHNwebsite.open_the_browser_and_enter_url_and_press_enter_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78788500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "System should navigate to Create Account screen of HN website",
+            "match": {
+              "location": "StepDefinitions.SD01_RegistertoHNwebsite.system_should_navigate_to_create_account_screen_of_hn_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 963264000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Firstname as \"\u003cFirstname\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirstname\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.SD02_Enterdata.enter_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 188119900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter lastname as \"\u003cLastname\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cLastname\u003e\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.SD02_Enterdata.enter_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222403900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Emailaddress as \"\u003cEmailaddress\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cEmailaddress\u003e\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.SD02_Enterdata.enter_emailaddress_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 219557800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Password as \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.SD02_Enterdata.enter_password_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 206457700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter RePassword as \"\u003cRePassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cRePassword\u003e\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.SD02_Enterdata.enter_re_password_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create an account",
+    "description": "",
+    "id": "create-an-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/FF02_Enterdata.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="11.415">
+    <testcase classname="Website Navigation" name="Navigate to Create Account screen of HN website" time="5.079">
+        <system-out><![CDATA[Given Open the browser and enter url and press enter key....................passed
+Then System should navigate to Create Account screen of HN website..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create an account" name="create an account" time="6.106">
+        <system-out><![CDATA[Given Open the browser and enter url and press enter key....................passed
+Then System should navigate to Create Account screen of HN website..........passed
+Then Enter Firstname as "<Firstname>".......................................passed
+Then Enter lastname as "<Lastname>".........................................passed
+Then Enter Emailaddress as "<Emailaddress>".................................passed
+Then Enter Password as "<Password>".........................................passed
+Then Enter RePassword as "<RePassword>".....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

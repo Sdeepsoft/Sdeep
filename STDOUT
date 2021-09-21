@@ -1,0 +1,14 @@
+
+@SmokeTest
+Scenario: Navigate to Create Account screen of HN website            [90m# src/test/java/FeatureFile/FF01_RegistertoHNwebsite.feature:3[0m
+  [32mGiven [0m[32mOpen the browser and enter url and press enter key[0m           [90m# StepDefinitions.SD01_RegistertoHNwebsite.open_the_browser_and_enter_url_and_press_enter_key()[0m
+  [32mThen [0m[32mSystem should navigate to Create Account screen of HN website[0m [90m# StepDefinitions.SD01_RegistertoHNwebsite.system_should_navigate_to_create_account_screen_of_hn_website()[0m
+
+Scenario: create an account                                          [90m# src/test/java/FeatureFile/FF02_Enterdata.feature:3[0m
+  [32mGiven [0m[32mOpen the browser and enter url and press enter key[0m           [90m# StepDefinitions.SD01_RegistertoHNwebsite.open_the_browser_and_enter_url_and_press_enter_key()[0m
+  [32mThen [0m[32mSystem should navigate to Create Account screen of HN website[0m [90m# StepDefinitions.SD01_RegistertoHNwebsite.system_should_navigate_to_create_account_screen_of_hn_website()[0m
+  [32mThen [0m[32mEnter Firstname as [0m[32m[1m"<Firstname>"[0m                              [90m# StepDefinitions.SD02_Enterdata.enter_firstname_as(java.lang.String)[0m
+  [32mThen [0m[32mEnter lastname as [0m[32m[1m"<Lastname>"[0m                                [90m# StepDefinitions.SD02_Enterdata.enter_lastname_as(java.lang.String)[0m
+  [32mThen [0m[32mEnter Emailaddress as [0m[32m[1m"<Emailaddress>"[0m                        [90m# StepDefinitions.SD02_Enterdata.enter_emailaddress_as(java.lang.String)[0m
+  [32mThen [0m[32mEnter Password as [0m[32m[1m"<Password>"[0m                                [90m# StepDefinitions.SD02_Enterdata.enter_password_as(java.lang.String)[0m
+  [32mThen [0m[32mEnter RePassword as [0m[32m[1m"<RePassword>"[0m                            [90m# StepDefinitions.SD02_Enterdata.enter_re_password_as(java.lang.String)[0m
