@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import java.io.IOException;
 
 public class AT01_Navigate {
-
+//Pageobject
 @Test
     public static void nav() throws IOException {
     OpenBrowser.NavtoWebsite("url");
